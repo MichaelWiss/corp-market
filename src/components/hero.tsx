@@ -17,8 +17,9 @@ const Hero = (props: HeroProps) => {
                     fill 
                     style={{ objectFit:'cover' }}
                 />
+                <div className="absolute inset-0 bg-gradient-to-r from-slate-900"/>
             </div>
-            <div className="pt-48 flex-justify-center items-center">
+            <div className="pt-48 flex justify-center items-center">
                 <h1 className="text-white text-6xl">
                     {props.title}
                 </h1>

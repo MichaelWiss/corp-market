@@ -1,5 +1,12 @@
-const ReliabilityPage = () => {
-    return <div>Reliability Page</div>;
-}
- 
-export default ReliabilityPage;
+import reliabilityImg from 'public/reliability.jpg';
+import Hero from '@/components/hero';
+
+export default function Reliability() {
+  return(
+    <Hero 
+      imgData={reliabilityImg} 
+      imgAlt="welding" 
+      title="We are reliable"
+      />
+  );
+};
