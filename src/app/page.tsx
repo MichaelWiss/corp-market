@@ -5,6 +5,13 @@ export default function Home() {
   return <div>
     
     Home Page
-    <Image src={homeImg} alt="car factory"></Image>
+    <div className="absolute -z-10 inset-0">
+    <Image 
+        src={homeImg} 
+        alt="car factory"
+        fill 
+        style={{ objectFit:'cover' }}
+     />
+     </div>
     </div>;
 };
